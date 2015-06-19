@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func launchNewStoryBoardClicked(sender: AnyObject) {
+        
+        let secondSTB = UIStoryboard(name: "ThirdTabItemStoryBoard", bundle: nil)
+        let initialVCFromSecondSTB: AnyObject = secondSTB.instantiateInitialViewController()
+        self.presentViewController(initialVCFromSecondSTB as! UIViewController, animated: true, completion: nil)
+    }
 }
 

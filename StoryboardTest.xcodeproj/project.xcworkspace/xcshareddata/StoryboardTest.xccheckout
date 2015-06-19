@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>2F2CB761-2695-464F-AC17-804A1B995952</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>StoryboardTest</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2FD6E88BD0C9A6318151001FC266631A63A678F6</key>
 		<string>https://github.com/loucimj/StoryboardTest.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>StoryboardTest.xcodeproj/project.xcworkspace</string>
+	<string>StoryboardTest.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2FD6E88BD0C9A6318151001FC266631A63A678F6</key>

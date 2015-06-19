@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tOt-kN-MNB">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--Third Tab-->
+        <scene sceneID="0zg-d9-2wH">
+            <objects>
+                <viewController id="QrX-H0-pUh" customClass="ThirdTabItemViewController" customModule="StoryboardTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jhi-yc-Lxq"/>
+                        <viewControllerLayoutGuide type="bottom" id="bEv-d4-f2L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bir-yA-lou">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ViewController From Third Storyboard" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="If5-Jc-WOd">
+                                <rect key="frame" x="15" y="273" width="290" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9y-VS-rf2">
+                                <rect key="frame" x="125" y="307" width="71" height="30"/>
+                                <state key="normal" title="Click Here">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="f1h-Po-4th" kind="show" id="vVF-ow-tCQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="If5-Jc-WOd" secondAttribute="centerY" constant="0.5" id="F5d-Ha-RDd"/>
+                            <constraint firstAttribute="centerX" secondItem="N9y-VS-rf2" secondAttribute="centerX" constant="-0.5" id="Lcb-ea-unN"/>
+                            <constraint firstItem="If5-Jc-WOd" firstAttribute="centerY" secondItem="N9y-VS-rf2" secondAttribute="centerY" constant="-38.5" id="P6C-fa-8eM"/>
+                            <constraint firstAttribute="centerX" secondItem="If5-Jc-WOd" secondAttribute="centerX" id="VEA-TV-0G4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Third Tab" id="rsG-wn-sp1"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pgf-oh-aMP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="742" y="350"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="smv-Wn-K0O">
+            <objects>
+                <viewController id="f1h-Po-4th" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MM8-x0-lLG"/>
+                        <viewControllerLayoutGuide type="bottom" id="FET-kr-AgC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qDM-jA-0NK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MSi-le-48z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1148" y="350"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7II-zK-SkX">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bOn-yN-1Yv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tOt-kN-MNB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FnM-iV-RSD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QrX-H0-pUh" kind="relationship" relationship="rootViewController" id="3pM-Zb-OGx"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="274" y="350"/>
+        </scene>
+    </scenes>
+</document>

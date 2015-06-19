@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31C93A741B31522100358CFF /* CustomSegueClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C93A731B31522100358CFF /* CustomSegueClass.swift */; };
+		31C93A761B31532900358CFF /* FirstTabItemStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C93A751B31532900358CFF /* FirstTabItemStoryBoard.storyboard */; };
+		31C93A781B31552D00358CFF /* FirstTabItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C93A771B31552D00358CFF /* FirstTabItemViewController.swift */; };
+		31C93A7C1B316B2B00358CFF /* SecondTabItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C93A7B1B316B2B00358CFF /* SecondTabItemViewController.swift */; };
+		31C93A7E1B316B4B00358CFF /* SecondTabItemStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C93A7D1B316B4B00358CFF /* SecondTabItemStoryBoard.storyboard */; };
+		31C93A811B316D6100358CFF /* ThirdTabItemStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C93A801B316D6100358CFF /* ThirdTabItemStoryBoard.storyboard */; };
+		31C93A831B316E6100358CFF /* ThirdTabItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C93A821B316E6100358CFF /* ThirdTabItemViewController.swift */; };
+		31C93A851B316F8300358CFF /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C93A841B316F8300358CFF /* CustomTabBarController.swift */; };
 		4148DD961B18F61F002DEC2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4148DD951B18F61F002DEC2B /* AppDelegate.swift */; };
 		4148DD981B18F61F002DEC2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4148DD971B18F61F002DEC2B /* ViewController.swift */; };
 		4148DD9B1B18F61F002DEC2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4148DD991B18F61F002DEC2B /* Main.storyboard */; };
@@ -26,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31C93A731B31522100358CFF /* CustomSegueClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegueClass.swift; sourceTree = "<group>"; };
+		31C93A751B31532900358CFF /* FirstTabItemStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstTabItemStoryBoard.storyboard; sourceTree = "<group>"; };
+		31C93A771B31552D00358CFF /* FirstTabItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTabItemViewController.swift; sourceTree = "<group>"; };
+		31C93A7B1B316B2B00358CFF /* SecondTabItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTabItemViewController.swift; sourceTree = "<group>"; };
+		31C93A7D1B316B4B00358CFF /* SecondTabItemStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondTabItemStoryBoard.storyboard; sourceTree = "<group>"; };
+		31C93A801B316D6100358CFF /* ThirdTabItemStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThirdTabItemStoryBoard.storyboard; sourceTree = "<group>"; };
+		31C93A821B316E6100358CFF /* ThirdTabItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTabItemViewController.swift; sourceTree = "<group>"; };
+		31C93A841B316F8300358CFF /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		4148DD901B18F61F002DEC2B /* StoryboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4148DD941B18F61F002DEC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4148DD951B18F61F002DEC2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +72,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31C93A791B31675100358CFF /* FirstTabBarItemStoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				31C93A771B31552D00358CFF /* FirstTabItemViewController.swift */,
+				31C93A751B31532900358CFF /* FirstTabItemStoryBoard.storyboard */,
+			);
+			name = FirstTabBarItemStoryBoard;
+			sourceTree = "<group>";
+		};
+		31C93A7A1B316AEE00358CFF /* SecondTabBarItemStoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				31C93A7B1B316B2B00358CFF /* SecondTabItemViewController.swift */,
+				31C93A7D1B316B4B00358CFF /* SecondTabItemStoryBoard.storyboard */,
+			);
+			name = SecondTabBarItemStoryBoard;
+			sourceTree = "<group>";
+		};
+		31C93A7F1B316D1800358CFF /* ThirdTabBarItemStoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				31C93A801B316D6100358CFF /* ThirdTabItemStoryBoard.storyboard */,
+				31C93A821B316E6100358CFF /* ThirdTabItemViewController.swift */,
+			);
+			name = ThirdTabBarItemStoryBoard;
+			sourceTree = "<group>";
+		};
+		31C93A861B3176EC00358CFF /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				31C93A841B316F8300358CFF /* CustomTabBarController.swift */,
+				31C93A731B31522100358CFF /* CustomSegueClass.swift */,
+			);
+			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
 		4148DD871B18F61F002DEC2B = {
 			isa = PBXGroup;
 			children = (
+				31C93A861B3176EC00358CFF /* Custom Classes */,
+				31C93A7F1B316D1800358CFF /* ThirdTabBarItemStoryBoard */,
+				31C93A7A1B316AEE00358CFF /* SecondTabBarItemStoryBoard */,
+				31C93A791B31675100358CFF /* FirstTabBarItemStoryBoard */,
 				4148DD921B18F61F002DEC2B /* StoryboardTest */,
 				4148DDA81B18F61F002DEC2B /* StoryboardTestTests */,
 				4148DD911B18F61F002DEC2B /* Products */,
@@ -194,7 +250,10 @@
 			files = (
 				4148DD9B1B18F61F002DEC2B /* Main.storyboard in Resources */,
 				4148DDA01B18F61F002DEC2B /* LaunchScreen.xib in Resources */,
+				31C93A811B316D6100358CFF /* ThirdTabItemStoryBoard.storyboard in Resources */,
+				31C93A7E1B316B4B00358CFF /* SecondTabItemStoryBoard.storyboard in Resources */,
 				4148DD9D1B18F61F002DEC2B /* Images.xcassets in Resources */,
+				31C93A761B31532900358CFF /* FirstTabItemStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C93A781B31552D00358CFF /* FirstTabItemViewController.swift in Sources */,
 				4148DD981B18F61F002DEC2B /* ViewController.swift in Sources */,
+				31C93A831B316E6100358CFF /* ThirdTabItemViewController.swift in Sources */,
 				4148DD961B18F61F002DEC2B /* AppDelegate.swift in Sources */,
+				31C93A7C1B316B2B00358CFF /* SecondTabItemViewController.swift in Sources */,
+				31C93A741B31522100358CFF /* CustomSegueClass.swift in Sources */,
+				31C93A851B316F8300358CFF /* CustomTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +473,7 @@
 				4148DDB11B18F61F002DEC2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4148DDB21B18F61F002DEC2B /* Build configuration list for PBXNativeTarget "StoryboardTestTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +482,7 @@
 				4148DDB41B18F61F002DEC2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
